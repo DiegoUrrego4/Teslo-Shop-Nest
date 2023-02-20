@@ -46,6 +46,11 @@ export class Product {
   gender: string;
 
   // Tags
+  @Column('text', {
+    array: true,
+    default: [],
+  })
+  tags: string[];
   // Imágenes
 
   @BeforeInsert()
