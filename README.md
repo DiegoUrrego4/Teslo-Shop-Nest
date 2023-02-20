@@ -6,19 +6,17 @@
 
 1.Clonar proyecto
 
-2. ```docker compose up -d```
+2. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
 
-3. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
+3. Cambiar las variables de entorno según corresponda
 
-4. Cambiar las variables de entorno
-
-5. Levantar la base de datos:
+4. Levantar la base de datos:
 
 ```
 docker compose up -d
 ```
 
-6. Levantar el modo de desarrollo:
+5. Levantar el modo de desarrollo:
 ```
-dyarn start:dev
+yarn start:dev
 ```
