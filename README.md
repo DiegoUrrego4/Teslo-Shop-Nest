@@ -5,14 +5,20 @@
 # Teslo API
 
 1.Clonar proyecto
+
 2. ```docker compose up -d```
+
 3. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
+
 4. Cambiar las variables de entorno
+
 5. Levantar la base de datos:
+
 ```
 docker compose up -d
 ```
-1. Levantar el modo de desarrollo:
+
+6. Levantar el modo de desarrollo:
 ```
 dyarn start:dev
 ```
